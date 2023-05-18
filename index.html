@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transaction Application</title>
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+<body>
+    <h1>Transaction Application</h1>
+    <form id="transactionForm">
+        <input type="text" id="titleInput" placeholder="Title" required>
+        <select id="categorySelect" required>
+            <option value="">Select Category</option>
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+        </select>
+        <input type="number" id="amountInput" placeholder="Amount" required>
+        <button type="submit">Add Transaction</button>
+    </form>
+    <table id="transactionTable">
+        <tr>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Amount</th>
+            <th></th>
+        </tr>
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>

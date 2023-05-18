@@ -1,0 +1,19 @@
+body{background-color: aqua;}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-right: 5px;
+}
